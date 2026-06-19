@@ -31,9 +31,9 @@ Melbourne, Australia. You can reach us at <a href="mailto:zenithhabittracker@gma
 
 <h2>The short version</h2>
 <ul>
-  <li>We do <strong>not</strong> track you, show ads, or use third-party advertising or analytics SDKs.</li>
+  <li>We do <strong>not</strong> track you across other companies' apps or websites, show ads, or use third-party advertising SDKs.</li>
   <li>Your habits, tasks, notes, streaks and check-ins are stored <strong>locally on your device</strong>.</li>
-  <li>The only data that leaves your device is when you use voice/AI features or subscribe — described below.</li>
+  <li>The only data that leaves your device is when you use voice/AI features, sign in, subscribe, or when anonymous usage events are uploaded — described below.</li>
   <li>You can delete all of your data at any time by deleting the app.</li>
 </ul>
 
@@ -63,6 +63,16 @@ anonymous, on-device events about subscription actions (e.g. trial started,
 purchase completed) to understand the app's performance; these stay on your
 device unless you choose to share diagnostics with us.</p>
 
+<h2>Product interaction analytics</h2>
+<p>To improve Zenith, we collect <strong>anonymous</strong> information about
+how you use the app — for example which screens you open, tab navigation, and
+key actions such as opening Brain Dump or the paywall. This is tied to a random
+per-install device identifier, not your name or email. We do not use this data
+for advertising or cross-app tracking. Events are stored on your device and may
+be uploaded in small batches to our server when the app goes to the background,
+if you are online and our backend is configured. We do not use third-party
+analytics SDKs (e.g. Firebase or PostHog).</p>
+
 <h2>Notifications</h2>
 <p>If you enable reminders, notifications are scheduled locally on your device.
 We do not operate a push server and do not send you marketing notifications.</p>
@@ -74,10 +84,10 @@ information. This data stays on your device and is used only to provide the
 app's features. Zenith does not read from or write to Apple Health.</p>
 
 <h2>Accounts</h2>
-<p>Zenith does not currently require an account to use, and we do not operate a
-user account server. If account sign-in is offered, any credentials entered are
-handled on-device and this policy will be updated before any account data is
-transmitted off your device.</p>
+<p>You can use Zenith without signing in. Optional sign-in with Apple or Google
+creates an account on our authentication provider (Supabase) so we can sync
+subscription status and support account features. Your habit and task content
+remains on your device unless you enable cloud sync (Pro).</p>
 
 <h2>Children</h2>
 <p>Zenith is not directed to children under 13 (or the equivalent minimum age in
