@@ -19,7 +19,7 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="meta">Zenith Habit Tracker &middot; Last updated: 6 June 2026</p>
+<p class="meta">Zenith Habit Tracker &middot; Last updated: 20 June 2026</p>
 
 <p>This Privacy Policy explains how Zenith ("the app", "we", "us") handles your
 information. Zenith is built to be private by default: your habit and task data
@@ -59,19 +59,25 @@ random per-install identifier is used only to enforce fair-use limits.</p>
 <p>Zenith Pro is sold as an auto-renewing subscription through the Apple App
 Store. <strong>Apple</strong> processes your payment and manages your
 subscription — we never receive or store your payment card details. We record
-anonymous, on-device events about subscription actions (e.g. trial started,
-purchase completed) to understand the app's performance; these stay on your
-device unless you choose to share diagnostics with us.</p>
+anonymous events about subscription actions (e.g. trial started, paywall viewed,
+purchase completed) to understand how the app performs. These events are sent to
+our analytics provider, <strong>PostHog</strong>, as described below — not your
+payment details.</p>
 
 <h2>Product interaction analytics</h2>
 <p>To improve Zenith, we collect <strong>anonymous</strong> information about
 how you use the app — for example which screens you open, tab navigation, and
 key actions such as opening Brain Dump or the paywall. This is tied to a random
-per-install device identifier, not your name or email. We do not use this data
-for advertising or cross-app tracking. Events are stored on your device and may
-be uploaded in small batches to our server when the app goes to the background,
-if you are online and our backend is configured. We do not use third-party
-analytics SDKs (e.g. Firebase or PostHog).</p>
+per-install device identifier (or your account ID if you sign in), not your name
+or email. We do not use this data for advertising or cross-app tracking.</p>
+<p>These events are processed by <strong>PostHog</strong> (PostHog Inc.), our
+product analytics provider. PostHog receives screen names, action names,
+subscription funnel events, app version, and an anonymous identifier. PostHog
+does <strong>not</strong> receive your habit or task content, mood notes, voice
+recordings, email address, or payment details. Data is stored on PostHog's
+servers in the region configured for our project (United States or European
+Union). See <a href="https://posthog.com/privacy">PostHog's Privacy Policy</a>
+for how they handle data on our behalf.</p>
 
 <h2>Notifications</h2>
 <p>If you enable reminders, notifications are scheduled locally on your device.
